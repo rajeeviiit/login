@@ -46,7 +46,7 @@
 			        	<button><span>Register</span></button>
 			      	</div>
 			      	<div class="footer">Already Exist? 
-			      		<a href="login.php">Login</a>
+			      		<a href="index.php">Login</a>
 			      	</div>
 				</form>
 
