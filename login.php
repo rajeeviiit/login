@@ -36,12 +36,14 @@
 							}
 
 							$login = login($username, $password);
-							if ($login = false) {
+							if ($login == false) {
 								$errors[] = 'username and password is incorrect';
 							}
 							else{
 								$_SESSION['user_id'] = $login;
 								header('Location: index.php');
+								
+								//die();
 							}
 						}
 
